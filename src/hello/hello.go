@@ -11,6 +11,8 @@ import (
 func main() {
 
 	who := "GoWorld!"
+	
+	fmt.Println("os.Args",os.Args)
 
 	if len(os.Args) > 1 { /* os.Args[0] is "hello" */
 
@@ -18,5 +20,5 @@ func main() {
 
 	}
 
-	fmt.Println("Hello", who)
+	fmt.Println("Hello", who)	
 }
